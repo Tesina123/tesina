@@ -1,0 +1,92 @@
+.tit,
+.text {
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tit {
+    text-transform: uppercase;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.text2 {
+    padding-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+.ele {
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.ele2 {
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.pp {
+    padding-top: 10px;
+}
+
+.http {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.lil {
+    padding-bottom: 10px;
+}
+
+.divi {
+    padding-left: 20px;
+}
+
+.divi2 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.table {
+    text-align: center;
+    padding-left: 20%;
+
+}
+
+.comm {
+    padding-left: 50px;
+}
+
+.butt {
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    color: rgb(226, 226, 226);
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 15px;
+    background-color: #5D4954;
+
+    cursor: pointer;
+}
+
+.img:hover {
+    animation: immagineanimata 0.5s linear forwards;
+}
+
+.img:hover::after {
+    animation: immagineanimata 0.25s linear alternate;
+}
+
+@keyframes immagineanimata {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
